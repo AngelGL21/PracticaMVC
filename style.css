@@ -1,0 +1,269 @@
+@font-face {
+    font-family: 'Netflix Sans';
+    src: url('fonts/netflix-sans.woff2') format('woff2'),
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI';
+}
+
+nav{
+    background: #000;
+    width: 100%;
+    padding: 10px 0;
+    z-index: 12;
+}
+
+nav .menu{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+.menu .logo a{
+    text-decoration: none;
+    color: red;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Netflix Sans', sans-serif;
+}
+
+/* Agrega estilos específicos para la zona de películas */
+.conteiner{
+    background-color: #000000;
+    width: 100%;
+    height: 95vh;
+    padding: 15px;
+}
+
+/*ESTILOS DE EDITAR*/
+#main {
+    /*text-align: center;*/
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.peli-lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.peli-tarjeta {    
+    margin: 15px;
+    text-align: center;
+    padding: 15px;
+}
+
+.peli-tarjeta img {
+    max-width: 100%;
+    height: 80%;
+    margin-bottom: 10px;
+}
+
+.peli-tarjeta h3 {
+    color: white;
+}
+
+.button-row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.button-row button {
+    background-color: #000000;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.button-row button:hover {
+    color: red;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 10px;
+    padding: 0px;
+    height: 15vh;
+}
+
+.botones button {
+    width: 20%;
+    height: 45px;
+    border: none;
+    outline: none;
+    background: #000000;
+    border: solid red;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+}
+
+.botones button:hover {
+    background: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.editar{
+    display: grid;
+    gap: 15px;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    margin: 10px;
+    background-color: #000000;
+    color: white;
+    border-radius: 5px;
+    justify-items: center;
+}
+
+.editar h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+  
+.editar input {
+    display: block;
+    padding: 10px;
+    width: 500px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    
+}
+  
+.editar button {
+    width: 20%;
+    height: 45px;
+    border: none;
+    outline: none;
+    background: #000000;
+    border: solid red;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    
+}
+  
+.editar button:hover {
+    background-color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nuevop {
+    display: grid;
+    gap: 15px;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    margin: 10px;
+    background-color: #000000;
+    color: white;
+    border-radius: 5px;
+    justify-items: center;
+}
+
+.nuevop h3{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+  
+.nuevop input {
+    display: block;
+    padding: 10px;
+    width: 500px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;   
+}
+  
+.nuevop button {
+    width: 20%;
+    height: 45px;
+    border: none;
+    outline: none;
+    background: #000000;
+    border: solid red;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    font-weight: 600; 
+}
+  
+.nuevop button:hover {
+    background-color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.video-responsive{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+.video{
+    width: 60%;
+    height: 75%;
+}
+.boton-volver{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boton-volver button{
+    width: 15%;
+    height: 45px;
+    border: none;
+    outline: none;
+    background: #000000;
+    border: solid red;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+}
+
+.boton-volver button:hover {
+    background-color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
